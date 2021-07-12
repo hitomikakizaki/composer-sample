@@ -1,0 +1,7 @@
+{
+    "gcp-pj": "gcp-project-id",
+    "gcp-ds": "gcp-dataset-name",
+    "gcs": "gcs-backet-name",
+    "env": "PRD",
+    "slack_webhook_url": "https://xxx"
+}
