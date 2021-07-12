@@ -39,7 +39,7 @@ default_args = {
     'retries': 1,
     'retry_delay': datetime.timedelta(minutes=3),
     'start_date': datetime.datetime(2021, 7, 9)
-    # 'on_failure_callback': failured
+    'on_failure_callback': failured
 }
 dag = DAG(
     'sample-workflow',
