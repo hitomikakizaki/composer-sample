@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args:
+    - '-exc'
+    - |
+      gsutil cp -r dags/* gs://xxx/dags  
